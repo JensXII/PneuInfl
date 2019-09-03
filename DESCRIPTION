@@ -1,0 +1,16 @@
+Package: PneuInfl
+Type: Package
+Title: Association between Pneumonia and influenza
+Version: 0.1.0
+Author@R: person("Jens", "Nielsen", email = "nls@ssi.dk", role = c("cre", "aut"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Explore the causal relation between Pneumonia and influenza infection based on MiBa samples.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  RODBC,
+  ggplot2,
+  sqldf,
+  splines
+RoxygenNote: 6.1.1
